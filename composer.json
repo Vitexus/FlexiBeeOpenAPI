@@ -1,0 +1,26 @@
+{
+    "name": "vitexsoftware/flexibee-openapi",
+    "description": "Generate Swagger schema from FlexiBee",
+    "authors": [
+        {
+            "name": "Vitex",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spoje.net/flexibee": "dev-master",
+        "erasys/openapi-php": "dev-master",
+        "phing/phing": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexiBee\\": "src/FlexiBee/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\FlexiBee\\Local\\": "tests"
+        }
+    }
+}

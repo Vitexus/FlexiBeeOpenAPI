@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FlexiBeeOpenApi" default="generate" basedir=".">
+
+    <target name="generate">
+        <exec command="php -f generator.php" dir="src" />
+    </target>
+
+    <target name="clean">
+        <delete dir="output"/>
+    </target>
+
+</project>
